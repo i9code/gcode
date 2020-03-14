@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 )
 
+// go中switch 默认就含有break出来
 func grade(score int) string {
 	g := ""
 	switch {

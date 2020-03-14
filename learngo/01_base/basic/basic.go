@@ -63,7 +63,7 @@ func consts() {
 
 func enums() {
 	const (
-		cpp = iota
+		cpp = iota // 依次自增
 		_
 		python
 		golang
